@@ -8,7 +8,6 @@ def isPower(x, y):
 
     return pow == y
 
-
 if __name__ == '__main__':
     print(isPower(10, 1))
     print(isPower(1, 20))
