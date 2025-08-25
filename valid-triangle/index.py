@@ -12,4 +12,3 @@ if checkValidity(a, b, c):
     print("Valid") 
 else:
     print("Invalid")
-    
