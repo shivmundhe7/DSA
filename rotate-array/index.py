@@ -16,7 +16,6 @@ if __name__ == "__main__":
     d = 2
 
     rotateArr(arr, d)
-
     
     for i in range(len(arr)):
         print(arr[i], end=" ")
