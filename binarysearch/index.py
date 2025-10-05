@@ -15,7 +15,6 @@ def binarySearch(arr, x):
 if __name__ == '__main__':
     arr = [2, 3, 4, 10, 40]
     x = 10
-
     result = binarySearch(arr, x)
     if result != -1:
         print("Element is present at index", result)
