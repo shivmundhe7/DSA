@@ -4,7 +4,6 @@ def subarraySum(arr, target):
 
     for s in range(n):
         curr = 0
-
         for e in range(s, n):
             curr += arr[e]
             if curr == target:
