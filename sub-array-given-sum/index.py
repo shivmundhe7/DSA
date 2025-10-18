@@ -1,7 +1,6 @@
 def subarraySum(arr, target):
     res = []
     n = len(arr)
-
     for s in range(n):
         curr = 0
         for e in range(s, n):
@@ -15,6 +14,5 @@ if __name__ == "__main__":
     arr = [15, 2, 4, 8, 9, 5, 10, 23]
     target = 23
     res = subarraySum(arr, target)
-
     for ele in res:
         print(ele, end=" ")
