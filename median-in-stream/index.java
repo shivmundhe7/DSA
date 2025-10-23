@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 class GfG {
-
     static ArrayList<Double> getMedian(int[] arr) {
         ArrayList<Double> res = new ArrayList<>();
         res.add((double) arr[0]);
