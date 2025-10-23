@@ -14,7 +14,6 @@ class GfG {
                 j--;
             }
             arr[j + 1] = num;
-
             int len = i + 1;
             double median;
             if (len % 2 != 0) {
