@@ -6,7 +6,6 @@ class GfG {
     static ArrayList<Double> getMedian(int[] arr) {
         ArrayList<Double> res = new ArrayList<>();
         res.add((double) arr[0]);
-
         for (int i = 1; i < arr.length; i++) {
             int j = i - 1;
             int num = arr[i];
