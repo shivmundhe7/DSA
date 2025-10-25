@@ -10,8 +10,6 @@ def countTriangles(arr):
                    arr[k] + arr[j] > arr[i]:
                     res += 1
     return res
-
-
 if __name__ == "__main__":
     arr = [4, 6, 3, 7]
     print(countTriangles(arr))
