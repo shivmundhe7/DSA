@@ -1,4 +1,4 @@
-public class GfG {
+public class index {
     static void modifyArray(int ar[], int n) {
         int i, j, temp;
         for (i = 0; i < n; i++) {
