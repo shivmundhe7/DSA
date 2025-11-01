@@ -12,7 +12,6 @@ class index {
                 }
             }
         }
-
         return res;
     }
 
