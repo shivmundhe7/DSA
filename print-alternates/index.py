@@ -1,4 +1,5 @@
 def getAlternates(arr):
+
     res = []
         for i in range(0, len(arr), 2):
         res.append(arr[i])
