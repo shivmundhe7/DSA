@@ -5,6 +5,7 @@ def nthTermOfAP(a1, a2, n):
         nthTerm += d
     return nthTerm
 
+    
 
 a1 = 2
 a2 = 3
