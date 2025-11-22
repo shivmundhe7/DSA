@@ -6,6 +6,5 @@ def factorial(n):
         res *= i
     return res
 
-
 num = 5
 print("Factorial of", num, "is", factorial(num))
