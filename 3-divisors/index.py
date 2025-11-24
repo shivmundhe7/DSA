@@ -1,4 +1,4 @@
-# function to count number of divisors of n
+# function to count number of divisors of 
 def exactly3Divisors(n):
     count = 0
     for i in range(1, n+1):
@@ -18,4 +18,5 @@ def countDivisors(n):
 if __name__ == "__main__":
     n = 100
     ans = countDivisors(n)
+
     print(ans)
