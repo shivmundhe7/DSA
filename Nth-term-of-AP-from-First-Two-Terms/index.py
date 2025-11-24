@@ -4,9 +4,6 @@ def nthTermOfAP(a1, a2, n):
     for i in range(1, n):
         nthTerm += d
     return nthTerm
-
-    
-
 a1 = 2
 a2 = 3
 n = 4
