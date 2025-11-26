@@ -6,6 +6,6 @@ def nthTermOfAP(a1, a2, n):
     return nthTerm
 a1 = 2
 a2 = 3
-
 n = 4
-print(nthTermOfAP(a1, a2, n))
+print(nthTermOfAP(a1, a2, n)) /
+
