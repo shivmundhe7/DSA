@@ -7,6 +7,7 @@ def pushZerosToEnd(arr):
             temp[j] = arr[i]
             j += 1
     while j < n:
+        
         temp[j] = 0
         j += 1
     for i in range(n):
@@ -16,4 +17,5 @@ if __name__ == "__main__":
     pushZerosToEnd(arr)
     for num in arr:
         
+
         print(num, end=" ")
