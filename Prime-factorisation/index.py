@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class GfG {
 
     public static ArrayList<Integer> primeFac(int n) {
@@ -38,4 +37,5 @@ public class GfG {
             System.out.print(factor + " ");
         }
     }
+
 }
