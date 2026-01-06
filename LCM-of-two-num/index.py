@@ -1,6 +1,5 @@
 def lcm(a, b):
     
-
     g = max(a, b) 
 
     s = min(a, b)  
@@ -14,4 +13,5 @@ def lcm(a, b):
 if __name__ == '__main__':
     a = 10
     b = 5
+
     print(lcm(a, b))
