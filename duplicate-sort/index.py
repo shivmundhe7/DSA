@@ -1,3 +1,4 @@
+
 def removeDuplicates(arr):
     
     seen = set()
@@ -18,4 +19,5 @@ if __name__ == "__main__":
     newSize = removeDuplicates(arr)
 
     for i in range(newSize):
+
         print(arr[i], end=" ")
